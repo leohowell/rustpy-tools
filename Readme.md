@@ -31,6 +31,22 @@ rustpy_tools.AES.decrypt('GSk0f16bYJm+SUbd49PBkw==', key, iv)
 # 'hello, world'
 ```
 
+### Build wheel
+```bash
+# install rust nightly and set default
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup install nightly
+rustup default nightly
+
+# create virtual environment by virtualenv 
+virtualenv venv
+source venv/activate
+
+# install build tools and build 
+pip install maturin
+maturin build
+```
+
 ### Credit
 [PyO3](https://github.com/PyO3)
 
