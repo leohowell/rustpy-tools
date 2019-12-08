@@ -16,7 +16,7 @@ import rustpy_tools
 from rustpy_tools import RegexUtil, AES
 
 rustpy_tools.version
-# 0.2.0
+# 0.2.1
 
 RegexUtil.is_match(r'^\w+@\w+$', 'xxx@gamil.com')
 # True

@@ -1,7 +1,7 @@
 [package]
 name = "rustpy-tools"
 description = "A useful tool Python module implement in rust-lang."
-version = "0.2.0"
+version = "0.2.1"
 authors = ["leohowell.com@gmail.com"]
 readme = "README.md"
 edition = "2018"

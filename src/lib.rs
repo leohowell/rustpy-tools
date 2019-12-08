@@ -45,7 +45,7 @@ fn rustpy_tools(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<RegexUtil>()?;
     m.add_class::<AES>()?;
     m.add_wrapped(wrap_pyfunction!(is_match))?;
-    m.add("version", "0.2.0")?;
+    m.add("version", "0.2.1")?;
 
     Ok(())
 }
